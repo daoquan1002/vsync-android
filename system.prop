@@ -1,0 +1,21 @@
+# Force enable VSync
+debug.sf.hwc_hotplug_error_via_neg_vsync=1
+debug.sf.hwc_hdcp_via_neg_vsync=1
+
+# Screen sync for 60Hz
+debug.sf.early.sf.duration=16666666
+debug.sf.early.app.duration=16666666
+debug.sf.earlyGl.sf.duration=16666666
+debug.sf.earlyGl.app.duration=16666666
+debug.sf.late.sf.duration=16666666
+debug.sf.late.app.duration=16666666
+debug.sf.hwc.min.duration=16666666
+
+# Screen sync for higher 60Hz (take 1 billion nanoseconds divided by your phone's highest Hz number, for example 1000000000/90≈11111111 for 90Hz)
+debug.sf.high_fps.early.sf.duration=11111111
+debug.sf.high_fps.early.app.duration=11111111
+debug.sf.high_fps.earlyGl.sf.duration=11111111
+debug.sf.high_fps.earlyGl.app.duration=11111111
+debug.sf.high_fps.late.sf.duration=11111111
+debug.sf.high_fps.late.app.duration=11111111
+debug.sf.high_fps.hwc.min.duration=11111111
